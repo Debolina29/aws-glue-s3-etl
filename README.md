@@ -12,3 +12,9 @@ This project demonstrates a beginner-friendly ETL pipeline using AWS Glue and S3
 - AWS S3
 - PySpark
 - IAM Role
+
+**Transformation Logic:**
+In AWS Glue Studio, the following transformation was applied:
+
+**Renamed column:** salary → monthly_salary
+The logic was implemented using Glue Studio's visual job editor and auto-converted to a PySpark script (glue_script.py).
